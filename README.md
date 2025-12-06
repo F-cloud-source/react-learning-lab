@@ -1,8 +1,4 @@
-Perfect — here’s a **ready-to-copy, clean, all-in-one README** for your React learning lab. You can paste this directly into your `README.md` and commit it:
 
----
-
-````markdown
 # React Learning Lab
 
 > Personal learning lab for practicing React (frontend) and backend experiments.

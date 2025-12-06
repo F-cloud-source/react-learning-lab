@@ -12,7 +12,6 @@ function App() {
     <Footer></Footer>
     <List></List>
     <Header></Header>
-    <Footer></Footer>
     <List></List>
 
     </>

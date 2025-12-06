@@ -11,10 +11,9 @@ function App() {
     <Header></Header>
     <Footer></Footer>
     <List></List>
-    <List></List>
     <Header></Header>
     <List></List>
-    <List></List>
+    
 
     </>
    );

@@ -2,7 +2,7 @@
 //              as props is correct datatype
 //              Age = PropTypes.number
 
-
+import PropTypes from './prop-types'
 
 function Student(props) {
       return(
@@ -15,6 +15,16 @@ function Student(props) {
 
         </div>
       )
+}
+
+Student.PropTypes = {
+    
+   name: PropTypes.string,
+   birthDate: PropTypes.number,
+   age: PropTypes.number,
+   salary: PropTypes.Number,
+   job: PropTypes.boolean,
+   
 }
 
 export default Student;

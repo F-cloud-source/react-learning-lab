@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+}
+.student-1{
+   border: 2px solid yellow;
+   color: yellow;
+   padding-left: 3rem;
+   margin-bottom: 3rem;
+   border-radius: 20px;
+   display: grid;
+   align-content: center;
+   justify-content: center;
+   cursor: pointer;
+   
+
+}

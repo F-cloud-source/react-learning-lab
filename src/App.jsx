@@ -8,17 +8,16 @@
    // </>
 
 
-import User1 from './User1'
-import User2 from './User2'
-import User3 from './User3'
+
+import User from './User'
 
 function App() {
   return(
       <>
 
-    <User1   failInput="Acessed Denied" userName1="Faizan Ali" emptyName="[XXXXXX]"  emptyEmail="xxxxx@xxx.com"  islogIn={true}  emailValid1="aliXXX@outlook.com"/>
-    <User2  failInput="Acessed Denied"  userName2="Sara"   emptyName="[XXXXXX]" emptyEmail="xxxxx@xxx.com" islogIn={true}  emailValid2="saraAAA@outlook.com"/>
-    <User3 failInput="Acessed Denied"  userName3="John"   emptyName="[XXXXXX]"  emptyEmail="xxxxx@xxx.com" islogIn={true}  emailValid3="johnCCC@outlook.com"/>
+    <User   failInput="Acessed Denied" userName="Faizan Ali" emptyName="[XXXXXX]"  emptyEmail="xxxxx@xxx.com"  islogIn={true}  emailValid="aliXXX@outlook.com"/>
+    <User   failInput="Acessed Denied" userName="Sara" emptyName="[XXXXXX]"  emptyEmail="xxxxx@xxx.com"  islogIn={true}  emailValid="AlexXXX@outlook.com"/>
+    <User   failInput="Acessed Denied" userName="John" emptyName="[XXXXXX]"  emptyEmail="xxxxx@xxx.com"  islogIn={true}  emailValid="JohnXXX@outlook.com"/>
 
     </>
   )

@@ -1,14 +1,14 @@
+// User Css import
 
-
-
-function User2(props){
+function User(props){
 
         if(props.islogIn){
            return(
             <div>
                 <h1>This User Data is Verified : {props.islogIn} Login In System</h1>
-                <h1>The User Name is : {props.userName2}</h1>
-                <h2>The {props.userName2} emailAdrress is{ props.emailValid2}</h2>
+                <h1>The User Name is : {props.userName}</h1>
+                <h2>The {props.userName} emailAdrress is{ props.emailValid}</h2>
+
            </div>
                 
            )
@@ -17,7 +17,7 @@ function User2(props){
         
             return(
                  
-               <div>
+               <div >
                 <h1>This User Data is Failed Acess System : {props.failInput} Login Fail System</h1>
                 <h1>The User Name is : {props.emptyName}</h1>
                 <h2>The {props.emptyName} emailAdrress {props.emptyEmail}</h2>
@@ -27,4 +27,4 @@ function User2(props){
       
 }
 
-export default User2;
+export default User;

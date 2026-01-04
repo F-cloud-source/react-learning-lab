@@ -1,6 +1,6 @@
 
 
-import PropsTypes from './prop-types'
+// import PropsTypes from './prop-types'
 function ListItem(){
 
     const fruits = [

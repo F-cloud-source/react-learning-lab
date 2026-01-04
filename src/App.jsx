@@ -1,17 +1,16 @@
 
 
-import List from './List'
+//import List from './List'
 
+// import Event from './Event'
+
+import Hooks from './myUI'
 function App(){
-          
-    return(
-       <>
-         <List/>
-         <List/>
-        </>
-
-    )
-}
+         return(
+                     <><Hooks/></>
+         );
+    
+};
 
 
  export default App;

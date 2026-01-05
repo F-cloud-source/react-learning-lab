@@ -7,7 +7,7 @@
 //import Hooks from './myUI'
 
 
-import Counter from './counterApp.jsx'
+import Counter from './CounterProject/counterApp'
 
 function App(){
         

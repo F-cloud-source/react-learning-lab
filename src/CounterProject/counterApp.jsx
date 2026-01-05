@@ -2,6 +2,8 @@
 
 import React, {useState} from 'react'
 
+import   './counter.css'
+
 function Counter(){
   
 
@@ -13,9 +15,9 @@ function Counter(){
 
       return(
    <div>
-     <button onClick={increment }>Start Counter:{count}</button>
-        <button onClick={decrement}>Reverse Counter: {count}</button>
-         <button onClick={reset}> Reset Counter:{count}</button>
+     <button  className="btn" onClick={increment }>Start Counter:{count}</button>
+        <button  className="btn" onClick={decrement}>Reverse Counter: {count}</button>
+         <button  className="btn" onClick={reset}> Reset Counter:{count}</button>
           </div>
 )
   

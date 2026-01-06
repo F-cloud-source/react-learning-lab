@@ -1,8 +1,8 @@
 // built a counter App Project
 
-import React, {useState} from 'react'
+ import React, {useState} from 'react'
 
-import   './counter.css'
+///import   './counter.css'
 
 function Counter(){
   

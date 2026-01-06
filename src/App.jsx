@@ -7,13 +7,15 @@
 //import Hooks from './myUI'
 
 
-import Counter from './CounterProject/counterApp'
+//import Counter from './CounterProject/counterApp'
 
+import ChangeEvent from './onchangeEvent'
 function App(){
         
     return(
         <>
-        <Counter/>
+        
+        <ChangeEvent/>
         </>
     )
 };

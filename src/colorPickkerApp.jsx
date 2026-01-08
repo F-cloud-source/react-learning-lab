@@ -5,7 +5,7 @@ import  './colorApp.css'
 //  color Using onChangecolor  react hook and use inline css for all Project to dislplay color on UI 
 function ColorPicker(){
  
-  let [color , setColor] = useState("#000000ff")
+  let [color , setColor] = useState("#eeff00ff")
       
 
   function Changecolor(event){

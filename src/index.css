@@ -1,8 +1,34 @@
 body{
-    background-color: mintcream;
+    background-color: rgb(90, 137, 155);
     display: flex;
     align-items: center;
     align-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.BTN1{
+    color: rgb(234, 255, 8);
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.BTN2{
+    color: rgb(45, 255, 8);
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.BTN3{
+    color: rgb(35, 189, 255);
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+}

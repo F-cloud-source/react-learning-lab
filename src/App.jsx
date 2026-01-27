@@ -7,17 +7,23 @@
 //import Hooks from './myUI'
 
 
-//import Counter from './CounterProject/counterApp'
+import Counter from './CounterProject/counterApp'
 
 //import ChangeEvent from './onchangeEvent'
 
-import ColorApp from './colorPickkerApp'
+// import ColorApp from './colorPickkerApp'
+
+
+import Update from './UpdaterFunction'
+
+
 function App(){
         
     return(
         <>
         
-        <ColorApp/>
+        <Update></Update>
+        
         </>
     )
 };

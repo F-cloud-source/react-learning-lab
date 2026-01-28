@@ -14,15 +14,15 @@ import Counter from './CounterProject/counterApp'
 // import ColorApp from './colorPickkerApp'
 
 
-import Update from './UpdaterFunction'
+//import Update from './UpdaterFunction'
 
-
+import Object from './Objects'
 function App(){
         
     return(
         <>
         
-        <Update></Update>
+      <Object/>
         
         </>
     )

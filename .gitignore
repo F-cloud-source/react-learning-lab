@@ -18,7 +18,8 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
-*.ntvs*
+*.ntvs*git rm -r --cached node_modules
+
 *.njsproj
 *.sln
 *.sw?

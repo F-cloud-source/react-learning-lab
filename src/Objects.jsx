@@ -61,33 +61,30 @@ function HanldleExportChange(event){
     setCar( c => ({... c, export: event.target.value}));
 };       
 
-
+// Name Onchange event After UI  renderings  Use Updater Fucntion for better quality and Performance.
 function HandleNameChange(event){
  
     SetUsername( c => ({... c , name: event.target.value}))
 
 };
 
-
-function HandleChange(event){
- 
-    SetUsername( c => ({... c , name: event.target.value}))
-
-};
-
-
+// EmailID Onchange event After UI  renderings  Use Updater Fucntion for better quality and Performance.
 function HandleEmailIDChange(event){
  
     SetUsername( c => ({... c , emailId: event.target.value}))
 
 };
 
+// Martial Status Onchange event After UI  renderings  Use Updater Fucntion for better quality and Performance.
 
 function HandleMartialStatusChange(event){
  
     SetUsername( c => ({... c , arriedStatus: event.target.value}))
 
 };
+
+
+// UI rendering in React.Js
   return(
     <div>
         <h1>Your liking Car: {car.model}  {car.year} {car.make} </h1>

@@ -84,7 +84,7 @@ function HandleMartialStatusChange(event){
 };
 
 
-// UI rendering of Objects Component based in React.Js
+// UI rendering of Objectsv for Car  and UserData  Component based in React.Js
   return(
     <div>
         <h1>Your liking Car: {car.year} {car.make} {car.model} {car.quality}{car.export} </h1>
@@ -93,11 +93,11 @@ function HandleMartialStatusChange(event){
         <input type="text"  value={car.model}  onChange={HanldeModelChange}/>
         <input type="text"  value={car.quality}  onChange={HanldeQualityChange}/>
         <input type="text"  value={car.export}  onChange={HanldleExportChange}/>
-      
+  
       <h1>User Info Details: {userName.name} {userName.emailId} {userName.MarriedStatus}</h1>
         <input type="text"  value={userName.name}  onChange={HandleNameChange}/>
         <input type="text"  value={userName.emailId}  onChange={HandleEmailIDChange}/>
-        <input type="text"  value={userName.MarriedStatus}  onChange={HandleMartialStatusChange}/>
+        <input type="text"  value={userName.MarriedStatus}  onCgit hange={HandleMartialStatusChange}/>
        
     </div>
   )

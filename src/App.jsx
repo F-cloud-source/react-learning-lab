@@ -16,14 +16,16 @@ import Counter from './CounterProject/counterApp'
 
 //import Update from './UpdaterFunction'
 
-import Object from './Objects'
+//import Object from './Objects'
+
+
+
+import Live from './LiveUI'
 function App(){
         
     return(
         <>
-        
-      <Object/>
-        
+        <Live/>
         </>
     )
 };

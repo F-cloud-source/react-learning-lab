@@ -9,13 +9,9 @@ function ArrayUpdate(){
     const {cars , setCars} = useState(["Buggati" , "Lamborgini" ]);
  
      
-    function AddCars(){
-     setCars(["Porshe"])
-    }
+    
 
-    function RemoveCars(){
 
-    }
      return(
 
         <div>

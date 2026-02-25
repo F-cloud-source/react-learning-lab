@@ -19,6 +19,8 @@ function UpdaterApp(){
    
 let [count , setCount] = useState(0);
       function Increment(){
+// Practical use of Updater function in React.Js to aviod immunability and aviod similar
+//  key word conflicts that effect Performance issues in UI and User Load.
 //  take a pending state to calcutate NEXT state.
 //  React puts your updater function in a quene (waiting in line )
 //  During the enxt render, it will them in the same order 

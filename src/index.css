@@ -1,34 +1,21 @@
 body{
-    background-color: rgb(90, 137, 155);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: 25px
 }
 
-.BTN1{
-    color: rgb(234, 255, 8);
-    padding: 2px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: black;
-    border-radius: 5px;
+.input1{
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    color:rgb(0, 0, 0)
+    
 }
 
-.BTN2{
-    color: rgb(45, 255, 8);
-    padding: 2px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: black;
-    border-radius: 5px;
-}
-
-.BTN3{
-    color: rgb(35, 189, 255);
-    padding: 2px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: black;
-    border-radius: 5px;
+       
+.Btn1{
+    border-radius: 8px;
+    color: black;
+    background-color: yellow;
 }

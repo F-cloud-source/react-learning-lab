@@ -7,7 +7,7 @@
 //import Hooks from './myUI'
 
 
-import Counter from './CounterProject/counterApp'
+//import Counter from './CounterProject/counterApp'
 
 //import ChangeEvent from './onchangeEvent'
 
@@ -20,13 +20,13 @@ import Counter from './CounterProject/counterApp'
 
 
 
-import Live from './LiveUI'
+//import Live from './LiveUI'
+
+import Car from './CararrayUpdater/Car'
 function App(){
         
     return(
-        <>
-        <Live/>
-        </>
+       <Car/> 
     )
 };
 

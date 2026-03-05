@@ -19,8 +19,8 @@ function AddCarItem(){
     // Built Objects for make and model and newmake
      const NewCar = {
         year: newyear,
-        make: newmodel,
-        model: newmake
+        make: newmake,
+        model: newmodel
      }
 // Make new State and Saving previous state to aviod conflict
 
@@ -58,10 +58,15 @@ return(
 
     <div>
         <h2>Update car Items</h2>
-        {cars.map((cars , index) =><ul>
-            <li key={index}>{cars.year}{cars.make}{cars.model}</li>
-           
-        </ul>)}
+        <ul>
+            {cars.map((cars , index) =>  
+            <li key={index}>
+                {cars.year}
+                {cars.make}
+                {cars.model}</li>)}
+        </ul>
+        
+        
         <input placeholder="AddYear" value={newyear}
                               onChange={OnChangeYear}  type="text" /><br></br>
         <input  placeholder="AddMake" value={newmake} 

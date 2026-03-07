@@ -22,7 +22,7 @@
 
 //import Live from './LiveUI'
 
-import Car from './Car'
+//import Car from './Car'
 function App(){
         
     return(

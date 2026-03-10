@@ -53,25 +53,39 @@ function DeleteActivity(Chores){
 }
 
 return(
-  <div className="To-Do-App"> 
-    <h1  className="Header">User Activity App</h1>
+  <div className="min-h-screen bg-slate-100 flex items-center justify-center p-4">
 
-    <input className="input-1" 
-     type="text"
-       placeholder="Add User Activity" 
-       value={newactivity}
-       onChange={HandleUserInput}/>
-    <button  className="Btn-1"  onClick={AddActivity}>Add Activity</button>
+  <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl p-8 flex flex-col gap-6">  
 
-    <ul className="ul-1">
-      {useractivity.map((task)  => 
-      <li key={task.id}>{task.Chores}
-      <button onClick={DeleteActivity}>Delete Activity</button></li>
+
+  <div className="space-y-1"  >
+  <h1 className="text-3xl font-black text-slate-800 tracking-tighter">User Activity App</h1>
+  </div>
+ 
+<div className="flex flex-col gap-3"> 
+
+<input  className="w-full bg-slate-50 border-2 border-slate-100 rounded-2xl px-4 py-3 outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all"
+                type="text"
+                placeholder="Add User Activity" 
+                value={newactivity}
+                onChange={HandleUserInput}/>
+
+    <button  className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-2xl shadow-lg shadow-indigo-200 transition-all active:scale-95"  onClick={AddActivity}>Add Activity</button>
+
+</div>
+    
+ <div className=" mt-4 border-t pt-6 space-y-3">
+
+  <ul className="mt-4 space-y-3 border-t border-slate-100 pt-6">
+           {useractivity.map((task)  => 
+           <li key={task.id}>{task.Chores}
+           <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-2xl shadow-lg shadow-indigo-200 transition-all active:scale-95"  onClick={DeleteActivity}>Delete Activity</button></li>
       )}
 
     </ul>
+  </div>
 
-  
+     </div>
   </div>
 )
 

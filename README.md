@@ -1,16 +1,24 @@
-# React + Vite
+# 🚀 React Learning Lab (Production)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my professional *Production Environment* for mastering React development. Every feature here has been built, tested in the Dev Lab, and deployed to a live environment.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+*[INSERT YOUR VERCEL LINK HERE]*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏗 System Architecture
+This project follows a *Two-Repo Pipeline* to ensure stability:
+1. *Lab Repo:* Where I experiment, break logic, and debug.
+2. *Production Repo (This one):* Reserved for "Golden" code. Connected to Vercel CI/CD for automatic deployment.
 
-## React Compiler
+## 🛠 Tech Stack
+- *Library:* React (Vite)
+- *Deployment:* Vercel (Hobby Tier)
+- *Version Control:* Git (Dual-Remote Strategy)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Features
+- High-quality, tested React components.
+- Optimized builds for production performance.
+- Clean, documented commit history.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+“Quality over quantity. Only 100% tested code lives here.”
